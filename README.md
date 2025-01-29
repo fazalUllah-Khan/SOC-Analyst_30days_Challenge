@@ -61,6 +61,48 @@ The Elastic & Kibana setup continuously analyzes these logs and triggers alerts.
 # 10. Security and Network:
 The network is secured using SSH and RDP protocols, with each server having access restrictions to ensure that only authorized users can access them. Logs are forwarded for analysis to detect and respond to any malicious activity.
 
+# ELK (ElasticSearch , Logstash, Kibana)
+**ELK Stack:**
+A collection of three open-source tools (Elasticsearch, Logstash, Kibana) used for searching, analyzing, and visualizing log data in real time.
+
+**Elasticsearch:**
+A distributed search and analytics engine used for storing and searching data quickly. It's the core component of the ELK stack.
+
+**ESQL (Elasticsearch SQL):**
+A query language in Elasticsearch that allows SQL-like syntax to query Elasticsearch data, making it easier for users familiar with SQL to interact with Elasticsearch.
+
+**Kibana:**
+A data visualization and exploration tool that works with Elasticsearch. It helps visualize Elasticsearch data using charts, graphs, and dashboards.
+
+**Logstash:**
+An open-source tool that collects, processes, and forwards log data to Elasticsearch for indexing. It can handle logs, metrics, and other data formats.
+
+**Beats:**
+Lightweight data shippers that send data to Elasticsearch or Logstash. Beats collect logs, metrics, and other types of data from different sources.
+
+**Elastic Agent:**
+A unified agent that simplifies managing data collection from various sources and sends it to Elasticsearch or Logstash. It combines the functionalities of different Beats.
+
+**Types of Beats:**
+
+   _**Filebeat:**_ Collects and ships log files.
+   _**Metricbeat:**_ Collects system and application metrics.
+   _**Packetbeat:**_ Monitors network data for application performance analysis.
+   _**Winlogbeat:**_ Collects Windows event logs.
+   _**Auditbeat:**_ Monitors audit data from systems.
+
+**ELK vs. Splunk:**
+     ELK is an open-source, cost-effective solution primarily focused on search and analytics.
+Splunk is a commercial platform known for its robust features, scaling capabilities, and advanced analytics but often comes with higher costs.
+**Benefits of ELK:**
+- _**Open-source:**_ ELK is free and customizable.
+- _**Scalable:**_ It can handle large amounts of data.
+- _**Real-time analytics:**_ ELK offers powerful search and analysis capabilities.
+- _**Visualization:**_ Kibana enables easy data visualization.
+- _**Integration:**_ Works well with various data sources and tools.
+
+
+
 
 
 # References: 
